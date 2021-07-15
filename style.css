@@ -1,0 +1,31 @@
+body{
+    background-color: white;   
+    color: #333;
+    transition-delay: 1s; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin: 0;
+    transition: 1s;
+}
+
+body.dark{
+   background-color: #333;
+   color: white;
+}
+
+.title{
+    margin: 0;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.sun:hover,
+.sun:focus{
+    transform: scale(1.1);
+    transition: 1s ease-in; 
+    cursor: pointer;
+}
