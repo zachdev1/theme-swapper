@@ -25,7 +25,10 @@ body.dark{
 
 .sun:hover,
 .sun:focus{
-    transform: scale(1.1);
-    transition: 1s ease-in; 
     cursor: pointer;
+    background-color: #a8a8a8;
+    border: 1px solid #a8a8a8;
+    transition-property: background-color 1s ease-in;
+    border-radius: 2rem;
 }
+
