@@ -27,6 +27,5 @@ body.dark{
 .sun:hover,
 .sun:focus{
     cursor: pointer;
-    transition: 1s ease-in;
 }
 
