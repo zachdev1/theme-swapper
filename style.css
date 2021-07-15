@@ -18,17 +18,15 @@ body.dark{
 
 .title{
     margin: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     font-size: 3rem;
     font-family: 'Bebas Neue', sans-serif;
+    height: 10vh;
 }
 
 .sun:hover,
 .sun:focus{
     cursor: pointer;
-    background-color: #a8a8a8;
-    border: 1px solid #a8a8a8;
-    transition-property: background-color 1s ease-in;
-    border-radius: 2rem;
+    transition: 1s ease-in;
 }
 
